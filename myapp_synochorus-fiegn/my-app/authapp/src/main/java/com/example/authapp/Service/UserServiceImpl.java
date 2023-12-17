@@ -9,6 +9,7 @@ import com.example.authapp.model.User;
 import com.example.authapp.rabbitmq.EmailDTO;
 import com.example.authapp.rabbitmq.MailProducer;
 
+import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
@@ -21,6 +22,10 @@ public class UserServiceImpl implements UserService{
     private UserProxy userProxy;
     @Autowired
     private MailProducer mailProducer;
+
+
+    @Autowired
+    private RabbitTemplate rabbitTemplate;
     @Override
     public User RegisterUser(User user) throws UserAlreadyExistsException {
         if(userRepository.findById(user.getEmailId()).isEmpty()) {

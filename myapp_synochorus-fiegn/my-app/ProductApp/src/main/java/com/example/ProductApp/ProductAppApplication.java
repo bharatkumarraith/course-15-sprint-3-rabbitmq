@@ -6,6 +6,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.context.annotation.Bean;
+import org.springframework.core.Ordered;
+import org.springframework.web.cors.CorsConfiguration;
+import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
+import org.springframework.web.filter.CorsFilter;
 
 import javax.servlet.FilterRegistration;
 
@@ -24,6 +28,20 @@ public class ProductAppApplication {
 	filterRegistration.addUrlPatterns("/product-app/get-User-Details","/product-app/ADD-PRODUCT");
 	return filterRegistration;
 
+}
+@Bean
+	public FilterRegistrationBean filterRegistrationBean()
+{
+	final CorsConfiguration configuration= new CorsConfiguration();
+	configuration.setAllowCredentials(true);
+	configuration.addAllowedOrigin("http://localhost:4200");
+	configuration.addAllowedHeader("*");
+	configuration.addAllowedMethod("*");
+	final UrlBasedCorsConfigurationSource source= new UrlBasedCorsConfigurationSource();
+	source.registerCorsConfiguration("/**",configuration);
+	FilterRegistrationBean filterRegistrationBean=new FilterRegistrationBean(new CorsFilter(source));
+	filterRegistrationBean.setOrder(Ordered.HIGHEST_PRECEDENCE);
+	return filterRegistrationBean;
 }
 }
 

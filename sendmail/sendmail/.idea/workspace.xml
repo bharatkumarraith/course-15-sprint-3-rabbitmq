@@ -5,18 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01a9522c-34dc-4ff5-aa02-0d69fd3b0b57" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../myapp_synochorus-fiegn/my-app/authapp/src/main/java/com/example/authapp/rabbitmq/EmailDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../myapp_synochorus-fiegn/my-app/authapp/src/main/java/com/example/authapp/rabbitmq/MailProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../myapp_synochorus-fiegn/my-app/authapp/src/main/java/com/example/authapp/rabbitmq/MessageConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/sendmail/Controller/SendMailController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/sendmail/Repository/SendMailRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/sendmail/Service/SendMailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/sendmail/Service/SendMailServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/sendmail/model/EmailData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/sendmail/rabitmq/EmailDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/sendmail/rabitmq/MailConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/sendmail/rabitmq/MessageConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../myapp_synochorus-fiegn/my-app/ProductApp/src/main/java/com/example/ProductApp/ProductAppApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../myapp_synochorus-fiegn/my-app/ProductApp/src/main/java/com/example/ProductApp/ProductAppApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../myapp_synochorus-fiegn/my-app/authapp/src/main/java/com/example/authapp/Controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../myapp_synochorus-fiegn/my-app/authapp/src/main/java/com/example/authapp/Controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../myapp_synochorus-fiegn/my-app/authapp/src/main/java/com/example/authapp/Service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../myapp_synochorus-fiegn/my-app/authapp/src/main/java/com/example/authapp/Service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../myapp_synochorus-fiegn/my-app/authapp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../myapp_synochorus-fiegn/my-app/authapp/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +50,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Lenovo Gaming/backend/course-15-sprint-3-rabbitmq/sendmail/sendmail",
+    "last_opened_file_path": "D:/BACKEND APPLICATION - SPRINGBOOT - PROJECTS/course-15-sprint-3-rabbitmq/sendmail/sendmail",
     "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
